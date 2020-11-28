@@ -15,16 +15,16 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white('           shawn swyx wang'),
-  handle: chalk.white('swyx'),
-  work: chalk.white('DX Engineer at Netlify'),
-  opensource: chalk.white('React TypeScript Cheatsheet'),
-  twitter: chalk.gray('https://twitter.com/') + chalk.cyan('swyx'),
-  npm: chalk.gray('https://npmjs.com/') + chalk.red('~swyx'),
-  github: chalk.gray('https://github.com/') + chalk.green('sw-yx'),
-  linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('shawnswyxwang'),
-  web: chalk.cyan('https://swyx.io'),
-  npx: chalk.red('npx') + ' ' + chalk.white('swyx  (via GitHub Package Registry)'),
+  name: chalk.white('           Chihab Otmani'),
+  handle: chalk.white('chihab'),
+  work: chalk.white('React/ive Developer'),
+  opensource: chalk.white('https://'),
+  twitter: chalk.gray('https://twitter.com/') + chalk.cyan('chihabotmani'),
+  npm: chalk.gray('https://npmjs.com/') + chalk.red('~chihab'),
+  github: chalk.gray('https://github.com/') + chalk.green('chihab'),
+  linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('chihab'),
+  web: chalk.cyan('https://chihab.dev'),
+  npx: chalk.red('npx') + ' ' + chalk.white('chihab  (via GitHub Package Registry)'),
   labelWork: chalk.white.bold('       Work:'),
   labelOpenSource: chalk.white.bold('Open Source:'),
   labelTwitter: chalk.white.bold('    Twitter:'),
@@ -39,7 +39,7 @@ const data = {
 const newline = '\n'
 const heading = `${data.name} / ${data.handle}`
 const working = `${data.labelWork}  ${data.work}`
-const opensourcing = `${data.labelOpenSource}  ${data.opensource}`
+// const opensourcing = `${data.labelOpenSource}  ${data.opensource}`
 const twittering = `${data.labelTwitter}  ${data.twitter}`
 const npming = `${data.labelnpm}  ${data.npm}`
 const githubing = `${data.labelGitHub}  ${data.github}`
@@ -54,9 +54,9 @@ const output =
   newline + // Add one whole blank line
   working +
   newline + // data.labelWork + data.work
-  opensourcing +
-  newline +
-  newline + // data.labelOpenSource + data.opensource
+  // opensourcing +
+  // newline +
+  // newline + // data.labelOpenSource + data.opensource
   twittering +
   newline + // data.labelTwitter + data.twitter
   npming +

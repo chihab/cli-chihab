@@ -1,16 +1,16 @@
 {
-  "name": "swyx",
+  "name": "chihab",
   "version": "0.2.0",
-  "description": "A personal card for swyx",
+  "description": "A personal card for chihab",
   "main": "/bin/card.js",
   "bin": {
     "bitandbang": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sw-yx/cli-swyx.git"
+    "url": "git+https://github.com/chihab/cli-chihab.git"
   },
-  "homepage": "https://swyx.io",
+  "homepage": "https://chihab.io",
   "scripts": {
     "prepublish": "npm run build",
     "build": "node build.js",
@@ -26,7 +26,7 @@
     "npx card",
     "business card"
   ],
-  "author": "swyx <swyx@dontemail.me> (http://swyx.io)",
+  "author": "Chihab Otmani<chihab@gmail.com> (https://chihab.dev)",
   "license": "MIT",
   "files": [
     "bin/card.js",
@@ -38,7 +38,7 @@
     "standard": "^12.0.1"
   },
   "bugs": {
-    "url": "https://github.com/sw-yx/cli-swyx/issues"
+    "url": "https://github.com/chihab/cli-chihab/issues"
   },
   "dependencies": {},
   "publishConfig": {
