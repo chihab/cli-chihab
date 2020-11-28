@@ -24,7 +24,7 @@ const data = {
   github: chalk.gray('https://github.com/') + chalk.green('chihab'),
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('chihab'),
   web: chalk.cyan('https://chihab.dev'),
-  npx: chalk.red('npx') + ' ' + chalk.white('chihab  (via GitHub Package Registry)'),
+  npx: chalk.red('npx') + ' ' + chalk.white('chihab  (via Npm Registry)'),
   labelWork: chalk.white.bold('       Work:'),
   labelOpenSource: chalk.white.bold('Open Source:'),
   labelTwitter: chalk.white.bold('    Twitter:'),

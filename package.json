@@ -1,6 +1,6 @@
 {
   "name": "chihab",
-  "version": "0.2.0",
+  "version": "1.2.0",
   "description": "A personal card for chihab",
   "main": "/bin/card.js",
   "bin": {
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/chihab/cli-chihab.git"
   },
-  "homepage": "https://chihab.io",
+  "homepage": "https://chihab.dev",
   "scripts": {
     "prepublish": "npm run build",
     "build": "node build.js",
@@ -40,8 +40,5 @@
   "bugs": {
     "url": "https://github.com/chihab/cli-chihab/issues"
   },
-  "dependencies": {},
-  "publishConfig": {
-    "registry": "https://npm.registry.github.com/"
-  }
+  "dependencies": {}
 }
